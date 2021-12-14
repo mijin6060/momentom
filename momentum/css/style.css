@@ -1,0 +1,20 @@
+@import "screens/main.css";
+@import "screens/quotes.css";
+@import "screens/todo.css";
+@import "variables.css";
+/* @import "components/background.css"; */
+
+.hidden {
+  display: none;
+}
+
+input {
+  border: none;
+  border-bottom: var(--main-border);
+  margin-bottom: 10px;
+}
+
+input:nth-child(2) {
+  border: none;
+  background: none;
+}
